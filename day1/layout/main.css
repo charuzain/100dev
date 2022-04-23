@@ -1,0 +1,40 @@
+body{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.container{
+  border: 3px solid rgb(0,0,0);
+  margin: auto;
+  height: 80vh;
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  
+}
+
+.item{
+  background-color: red;
+  color:white;
+  font-size: 50px;
+  text-align: center;
+  /* margin: 2px; */
+  /* width: 300px */
+  width:33%;
+  flex-grow: 1;
+}
+.item-9 {background-color: red;}
+.item-2 { background-color: blue}
+.item-3{background-color: orange;}
+.item-4{background-color: yellow;
+color: black;}
+.item-5{background-color: green}
+.item-6{background-color: cyan;}
+.item-7{background-color: black;}
+.item-8 {
+  background-color: royalblue
+}
+.item-1 {
+  background-color: indigo
+}
