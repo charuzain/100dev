@@ -1,0 +1,59 @@
+body{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+.container{
+  border:8px solid black;
+  height:70vh;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap-reverse;
+  justify-content: space-between;
+  align-items: center
+}
+.item{
+font-size: 50px;
+padding: 10px;
+font-weight: 300;
+width: 300px;
+box-sizing: border-box;
+text-align: center;
+}
+
+.item-9 {
+  background-color: red;
+}
+
+.item-2 {
+  background-color: blue
+}
+
+.item-3 {
+  background-color: orange;
+}
+
+.item-4 {
+  background-color: yellow;
+  color: black;
+}
+
+.item-5 {
+  background-color: green
+}
+
+.item-6 {
+  background-color: cyan;
+}
+
+.item-7 {
+  background-color: rgb(221, 82, 105);
+}
+
+.item-8 {
+  background-color: royalblue
+}
+
+.item-1 {
+  background-color: indigo
+}
