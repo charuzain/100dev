@@ -1,0 +1,31 @@
+body{
+  margin:0px;
+  padding:0px;
+  box-sizing: border-box;
+}
+.container{
+border:2px solid black;
+font-family: 'Courier New', Courier, monospace;
+font-size: 32px;
+color:white;
+display: flex;
+flex-direction: row-reverse;
+justify-content: center;
+height: 80vh;
+}
+.item{
+  width: 300px;
+  text-align: center;
+}
+.item-1{
+  background-color: red;
+}
+.item-2 {
+  background-color: green
+}
+.item-3 {
+  background-color: black;
+}
+.item-4 {
+  background-color: brown;
+}
